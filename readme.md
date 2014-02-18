@@ -34,7 +34,8 @@ You can pass an options object when you call `share` on an element to make thing
 
 **url**: the url you want to share. _default: `window.location.href`_    
 **text**: text to be tweeted alongside your link, _default: your page's meta description_    
-**image**: image to be shared (facebook-specific)    
+**image**: image to be shared (facebook and pinterest specific)    
+**imgclass**: image class to be automatically shared
 **app_id**: facebook app id for tracking shares. if provided, will use the facebook API    
 **background**: background color of the button, _default: `#e1e1e1`_    
 **color**: text color of the button, _default: '#333'_    
